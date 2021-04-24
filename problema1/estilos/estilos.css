@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+}
+body {
+    background: #FEFEFD;
+    padding: 50px;
+  
+  }
+  
+  
+  div.uno {
+    background: #9999FF;
+    border: #000000 4px solid;
+    padding:10px;
+  }
+
+  div.uno p.mensaje{
+      
+    background: #f3f3f3;
+    
+    border: #ffff00 4px solid;
+    font: oblique bold;
+    font-size: 60px;
+    font-weight: bold;
+    padding:30px;
+  }
+  div.dos {
+    margin-top: 10px;
+    background-color: #ce8845;
+    padding-left: 14px;
+    padding-bottom: 0px;
+    padding-right: 14px;
+    
+  }
+  
+  div.dos p {
+    color: #ffffff;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #328211;
+  }
+
+  
