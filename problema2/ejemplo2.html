@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Problema 2</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  </head>
+  <body>
+  <div id="parrafo1">
+    <p>
+      Nombre: <br>
+      <input type="text" id="name"></p>
+      Apellido: <br><br> 
+      <input type="text" id="lastName"></p>
+      Fecha de nacimiento:<br><br> 
+      <input type="text" id="datepicker"><br> <br> 
+      <input type="button" value="Generar Mensaje" onclick="imprimirDatos();">
+    </p>
+  </div>
+
+  <script type="text/javascript" charset="utf-8">
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+    function imprimirDatos(){
+      /* var nombre = "Ricardo";*/
+      nombre = document.getElementById('name').value; 
+      /* var apellido = "Freire"; */
+      apellido = document.getElementById('lastName').value;
+      /* var fechanac = "24/4/2021"; */
+      fechanac = document.getElementById('datepicker').value;
+      console.log(nombre);
+      console.log(apellido);
+      console.log(fechanac);
+  }
+  </script>  
+  </body>
+</html>
